@@ -1,0 +1,52 @@
+WMB-10Xv3-CB:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/allen_abc_atlas/expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-CB-raw.h5ad
+  raw_rows: 182026
+  annotated_rows: 181723
+WMB-10Xv3-CTXsp:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-CTXsp-raw.h5ad
+  raw_rows: 78464
+  annotated_rows: 78223
+WMB-10Xv3-HPF:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-HPF-raw.h5ad
+  raw_rows: 181653
+  annotated_rows: 181055
+WMB-10Xv3-HY:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-HY-raw.h5ad
+  raw_rows: 162869
+  annotated_rows: 162296
+WMB-10Xv3-Isocortex-1:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-Isocortex-1-raw.h5ad
+  raw_rows: 228229
+  annotated_rows: 227670
+WMB-10Xv3-Isocortex-2:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-Isocortex-2-raw.h5ad
+  raw_rows: 228228
+  annotated_rows: 227537
+WMB-10Xv3-MB:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/allen_abc_atlas/expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-MB-raw.h5ad
+  raw_rows: 337972
+  annotated_rows: 337101
+WMB-10Xv3-MY:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/allen_abc_atlas/expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-MY-raw.h5ad
+  raw_rows: 192498
+  annotated_rows: 191746
+WMB-10Xv3-OLF:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-OLF-raw.h5ad
+  raw_rows: 89244
+  annotated_rows: 88560
+WMB-10Xv3-P:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/allen_abc_atlas/expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-P-raw.h5ad
+  raw_rows: 143661
+  annotated_rows: 143157
+WMB-10Xv3-PAL:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-PAL-raw.h5ad
+  raw_rows: 108677
+  annotated_rows: 108046
+WMB-10Xv3-STR:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/allen_abc_atlas/expression_matrices/WMB-10Xv3/20230630/WMB-10Xv3-STR-raw.h5ad
+  raw_rows: 285167
+  annotated_rows: 283782
+WMB-10Xv3-TH:
+  raw_h5ad: ${DOPABASE_DATA_ROOT}/mouse/atlas/snrnaseq_wmb_full/WMB-10Xv3-TH-raw.h5ad
+  raw_rows: 130856
+  annotated_rows: 130454

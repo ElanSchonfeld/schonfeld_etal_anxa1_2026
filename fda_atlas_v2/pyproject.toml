@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dopabase-fda-atlas-v2"
+version = "0.1.0"
+description = "FDA Drug Target Atlas within DopaBase Human"
+requires-python = "==3.10.19"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas==2.3.3",
+    "pyarrow==23.0.0",
+    "scipy==1.11.4",
+    "anndata==0.11.4",
+    "h5py==3.12.1",
+    "pyyaml==6.0.3",
+    "rdkit==2025.9.5",
+    "scanpy==1.11.5",
+    "scdrs==1.0.2",
+    "torch==2.5.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+pythonpath = ["src"]

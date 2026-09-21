@@ -1,0 +1,20 @@
+trait_id,concept_id,expected_concept_name,mapping_tier,mapping_rationale
+pd,21001057,Parkinson's disease,exact_trait,Exact frozen Parkinson disease construct
+scz,21000948,Schizophrenia,exact_trait,Exact frozen schizophrenia construct
+scz,21000949,Chronic schizophrenia,nested_subtype,Explicit schizophrenia subtype
+scz,21013819,Treatment-Resistant Schizophrenia,nested_subtype,Explicit schizophrenia subtype
+adhd,21001028,Attention deficit hyperactivity disorder,exact_trait,Exact frozen ADHD construct
+nicotine_dep,21001004,Nicotine dependence,related_construct,Clinical nicotine dependence is related to but not identical with the frozen GSCAN cigarettes-per-day phenotype
+bipolar,21000954,Bipolar disorder,exact_trait,Exact frozen bipolar-disorder construct
+bipolar,21000953,"Bipolar affective disorder, current episode manic",nested_subtype,Explicit bipolar-disorder episode
+bipolar,21012862,"Bipolar affective disorder, current episode depression",nested_subtype,Explicit bipolar-disorder episode
+bipolar,21013692,Mixed bipolar I disorder,nested_subtype,Explicit bipolar-I subtype
+chronic_pain,21003090,Chronic pain,exact_trait,Exact frozen chronic-pain construct
+mdd,21000952,Major depressive disorder,exact_trait,Exact frozen major-depressive-disorder construct
+mdd,21000960,Severe major depression with psychotic features,nested_subtype,Explicit major-depression subtype
+oud,21000999,Opioid dependence,exact_trait,DrugCentral dependence concept mapped to frozen opioid-use-disorder construct
+ocd,21000976,Obsessive-compulsive disorder,exact_trait,Exact frozen OCD construct
+anxiety_any,4264789,Anxiety disorder,exact_trait,Exact broad anxiety-disorders construct used by the frozen trait
+anxiety_any,21000971,Generalized anxiety disorder,nested_subtype,Explicit anxiety-disorder subtype
+anxiety_any,21000970,Panic disorder,nested_subtype,Explicit anxiety-disorder subtype
+anxiety_any,21000975,Social phobia,nested_subtype,Explicit anxiety-disorder subtype

@@ -1,0 +1,9 @@
+donor_label,donor_species,species_scientific_name,species_genus,donor_sex,donor_age,donor_age_value,donor_age_unit,donor_nhash_id
+Q19.26.010,NCBITaxon:9544,Macaca mulatta,Macaque,Female,10 yrs,10.0,years,DO-XYBX6133
+Q21.26.002,NCBITaxon:9545,Macaca nemestrina,Macaque,Female,11 yrs,11.0,years,DO-VVYV1997
+Q21.26.010,NCBITaxon:9545,Macaca nemestrina,Macaque,Male,7 yrs,7.0,years,DO-KEEN9676
+QM21.26.001,NCBITaxon:9544,Macaca mulatta,Macaque,Male,6 yrs,6.0,years,DO-MCUM5797
+QM21.26.003,NCBITaxon:9544,Macaca mulatta,Macaque,Male,5 yrs,5.0,years,DO-TTGU1761
+QM23.50.001,NCBITaxon:9544,Macaca mulatta,Macaque,Male,10 yrs,10.0,years,DO-IJUP7054
+QM23.50.002,NCBITaxon:9544,Macaca mulatta,Macaque,Male,14 yrs,14.0,years,DO-CDHB6032
+QM23.50.003,NCBITaxon:9544,Macaca mulatta,Macaque,Male,6 yrs,6.0,years,DO-HHOI8925

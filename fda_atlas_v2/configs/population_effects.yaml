@@ -1,0 +1,83 @@
+release_id: development
+score_field: norm_score
+min_cells_per_donor_population: 10
+min_common_donors: 3
+min_donors: 3
+traits:
+  - pd
+  - scz
+  - adhd
+  - nicotine_dep
+  - bipolar
+  - chronic_pain
+  - mdd
+  - oud
+  - ocd
+  - anxiety_any
+  - fibromyalgia
+
+branch_by_leaf:
+  Gad2:Ebf2: Gad2/Chrm3+
+  Gad2:Egfr: Gad2/Chrm3-
+  Sox6:Tmem132d: Sox6/Slc44a5+
+  Sox6:March3: Sox6/Slc44a5+
+  Sox6:Tafa1: Sox6/Cntnap5b+
+  Sox6:Arhgap28: Sox6/Cntnap5b+
+  Sox6:Vcan: Sox6/Cntnap5b+
+  Sox6:Kcnmb2: Sox6/Cntnap5b+
+  Calb1:Ccdc192: Calb1/Ntm+
+  Calb1:Lpar1: Calb1/Ntm+
+  Calb1:Pde11a: Calb1/Ntm+
+  Calb1:Kctd8: Calb1/Ntm+
+  Calb1:Stac: Calb1/Ntm+
+  Calb1:Chrm2: Calb1/Ntm+
+  Calb1:Ptprt: Calb1/Lepr+
+  Calb1:Sulf1: Calb1/Lepr+
+  Calb1:Gipr: Calb1/Lepr+
+  Calb1:Sox6: Calb1/Lepr+
+
+species:
+  human:
+    h5ad: ${DOPABASE_DATA_ROOT}/human/da_integration/integrated/human_da_browser_new.h5ad
+    score_table: ${DOPABASE_FDA_ROOT}/release/development/human_integrated_scdrs_scores.parquet
+    score_manifest: ${DOPABASE_FDA_ROOT}/release/development/human_integrated_scdrs_scores_manifest.json
+    donor_column: donor
+    study_column: study
+    condition_column: disease_status
+    leaf_column: hmoe_subtype
+    score_template: scdrs_{trait}_norm_score
+    excluded_leaves: []
+    primary_cohort: control_all
+    cohorts:
+      control_all:
+        disease_status: [Ctrl, Control]
+      kamath_control:
+        study: [Kamath]
+        disease_status: [Ctrl]
+      siletti_control:
+        study: [Siletti]
+        disease_status: [Control]
+      kamath_pd:
+        study: [Kamath]
+        disease_status: [PD]
+      kamath_lbd:
+        study: [Kamath]
+        disease_status: [LBD]
+  mouse:
+    h5ad: ${DOPABASE_SOURCE_ROOT}/scDRS/input/lrrk2finaldataset_da_filtered.h5ad
+    score_directory: ${DOPABASE_SOURCE_ROOT}/scdrs_final/scores_lrrk2
+    score_manifest: ${DOPABASE_SOURCE_ROOT}/scdrs_final/scores_lrrk2/seed42_run_manifest.json
+    score_source_n_cells: 28532
+    score_source_cell_id_sha256: 0eadb452dc71a9a913ef0a858f60dfb9743c61915f9a2e9cabfd147707a33f61
+    donor_column: sample
+    study_column: group
+    condition_column: group
+    leaf_column: subtype
+    excluded_leaves: [Lef1, Gad2:Syndig1]
+    primary_cohort: all_condition_stratified
+    cohorts:
+      all_condition_stratified: {}
+      control:
+        group: [control]
+      lrrk2:
+        group: [lrrk2]

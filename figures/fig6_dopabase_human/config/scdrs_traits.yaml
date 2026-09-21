@@ -1,0 +1,24 @@
+scdrs:
+  traits:
+    - trait_id: pd
+      display_name: Parkinson's Disease
+    - trait_id: scz
+      display_name: Schizophrenia
+    - trait_id: mdd
+      display_name: Major Depressive Disorder
+    - trait_id: adhd
+      display_name: ADHD
+    - trait_id: chronic_pain
+      display_name: Chronic Pain
+    - trait_id: anxiety_any
+      display_name: Anxiety
+    - trait_id: bipolar
+      display_name: Bipolar Disorder
+    - trait_id: nicotine_dep
+      display_name: Nicotine Dependence
+    - trait_id: ocd
+      display_name: OCD
+    - trait_id: oud
+      display_name: Opioid Use Disorder
+    - trait_id: fibromyalgia
+      display_name: Fibromyalgia

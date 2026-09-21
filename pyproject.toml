@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anxa1-dopaminergic-pd"
+version = "0.1.0"
+description = "Analysis code for ANXA1-associated dopaminergic neurons and Parkinson disease vulnerability"
+requires-python = "==3.10.19"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,29 @@
+{
+  "title": "Analysis code: Identification of a human Anxa1-associated dopaminergic population linked to Parkinson’s disease vulnerability and sensorimotor putaminal networks",
+  "upload_type": "software",
+  "description": "<p>Analysis and figure code for the manuscript \"Identification of a human Anxa1-associated dopaminergic population linked to Parkinson’s disease vulnerability and sensorimotor putaminal networks\". The repository contains the hierarchical mixture-of-experts classifier and its released model, the human transfer, disease-vulnerability, projection, and PPMI DaTscan analyses, the DopaBase Human atlas build, and the FDA Drug Target Atlas analysis core with tests.</p><p>Derived input tables are distributed separately. Raw and controlled-access source data, including participant-level PPMI data, are not redistributed.</p>",
+  "creators": [
+    {
+      "name": "Schonfeld, Elan",
+      "orcid": "0000-0001-7368-1562",
+      "affiliation": "Northwestern University Feinberg School of Medicine, Department of Neurology, Chicago, USA; Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, USA"
+    },
+    {
+      "name": "Awatramani, Rajeshwar",
+      "orcid": "0000-0002-0713-2140",
+      "affiliation": "Northwestern University Feinberg School of Medicine, Department of Neurology, Chicago, USA; Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD, USA"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Parkinson disease",
+    "dopaminergic neurons",
+    "ANXA1",
+    "single-cell RNA-seq",
+    "mixture of experts",
+    "DaTscan",
+    "scDRS"
+  ]
+}

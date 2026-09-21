@@ -1,0 +1,607 @@
+{
+  "pipeline": "v4_improved_unified",
+  "tree": {
+    "node": {
+      "rest_of_dendrogram": {
+        "Gad2+,Kctd16+": {
+          "Chrm3-": [
+            "Gad2:Egfr"
+          ],
+          "Chrm3+": [
+            "Gad2:Ebf2"
+          ]
+        },
+        "Ddc-high,Slc6a3-high": {
+          "Sox6+,Col25a1+": {
+            "Slc44a5+": [
+              "Sox6:Tmem132d",
+              "Sox6:March3"
+            ],
+            "Cntnap5b+": {
+              "Il1rapl2-": [
+                "Sox6:Tafa1"
+              ],
+              "Il1rapl2+": {
+                "Vcan-": [
+                  "Sox6:Arhgap28"
+                ],
+                "Vcan+": [
+                  "Sox6:Vcan",
+                  "Sox6:Kcnmb2"
+                ]
+              }
+            }
+          },
+          "Calb1+,Ndst3+": {
+            "Ntm+": {
+              "Atp8b1+": {
+                "Rmst+": [
+                  "Calb1:Ccdc192",
+                  "Calb1:Lpar1"
+                ],
+                "Rmst-": {
+                  "Epha4+": [
+                    "Calb1:Pde11a"
+                  ]
+                }
+              },
+              "Tmem132d+": {
+                "Eph4a+": [
+                  "Calb1:Kctd8",
+                  "Calb1:Stac"
+                ],
+                "Eph4a-": {
+                  "Col23a1+": [
+                    "Calb1:Chrm2"
+                  ]
+                }
+              }
+            },
+            "Lepr+": {
+              "Cacna2d3-": [
+                "Calb1:Ptprt"
+              ],
+              "Cacna2d3+": {
+                "Zfp521+": [
+                  "Calb1:Sulf1",
+                  "Calb1:Sox6"
+                ],
+                "Zfp521-": [
+                  "Calb1:Gipr"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "root_key": "node",
+  "gate_nodes": [
+    "node|rest_of_dendrogram",
+    "node|rest_of_dendrogram|Gad2+,Kctd16+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+"
+  ],
+  "gates": {
+    "node|rest_of_dendrogram": [
+      "node|rest_of_dendrogram|Gad2+,Kctd16+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high"
+    ],
+    "node|rest_of_dendrogram|Gad2+,Kctd16+": [
+      "node|rest_of_dendrogram|Gad2+,Kctd16+|Chrm3-",
+      "node|rest_of_dendrogram|Gad2+,Kctd16+|Chrm3+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+": [
+      "Sox6:Tmem132d",
+      "Sox6:March3"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2-",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan-",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+": [
+      "Sox6:Vcan",
+      "Sox6:Kcnmb2"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst-"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+": [
+      "Calb1:Ccdc192",
+      "Calb1:Lpar1"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a-"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+": [
+      "Calb1:Kctd8",
+      "Calb1:Stac"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3-",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+": [
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+",
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521-"
+    ],
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+": [
+      "Calb1:Sulf1",
+      "Calb1:Sox6"
+    ]
+  },
+  "leaves": [
+    "Calb1:Ccdc192",
+    "Calb1:Chrm2",
+    "Calb1:Gipr",
+    "Calb1:Kctd8",
+    "Calb1:Lpar1",
+    "Calb1:Pde11a",
+    "Calb1:Ptprt",
+    "Calb1:Sox6",
+    "Calb1:Stac",
+    "Calb1:Sulf1",
+    "Gad2:Ebf2",
+    "Gad2:Egfr",
+    "Sox6:Arhgap28",
+    "Sox6:Kcnmb2",
+    "Sox6:March3",
+    "Sox6:Tafa1",
+    "Sox6:Tmem132d",
+    "Sox6:Vcan"
+  ],
+  "excluded_leaves": [
+    "Lef1",
+    "Gad2:Syndig1"
+  ],
+  "excluded_rationale": "Exclude Lef1 and Gad2:Syndig1 because they are non-midbrain DA populations without stable mouse-human correspondence.",
+  "feature_signature": {
+    "input_dim": 21604,
+    "feature_names_hash": "9df1b3c2aab823e0a3b0d27ef351ef5207c3231cfce8360e9aeaf71709377fec",
+    "preprocess_meta": {}
+  },
+  "config": {
+    "model_type": "logreg",
+    "feature_method": "f_classif",
+    "shared_features": false,
+    "topk": 200,
+    "min_pct": 0.005,
+    "min_diff_pct": 0.001,
+    "height_train": 8,
+    "seed": 42
+  },
+  "log": {
+    "height": 8,
+    "nodes": {
+      "node|rest_of_dendrogram": {
+        "children": [
+          "node|rest_of_dendrogram|Gad2+,Kctd16+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Gad2+,Kctd16+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 891,
+            "n_neg": 21086,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 21086,
+            "n_neg": 891,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Gad2+,Kctd16+": {
+        "children": [
+          "node|rest_of_dendrogram|Gad2+,Kctd16+|Chrm3-",
+          "node|rest_of_dendrogram|Gad2+,Kctd16+|Chrm3+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Gad2+,Kctd16+|Chrm3-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 697,
+            "n_neg": 194,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Gad2+,Kctd16+|Chrm3+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 194,
+            "n_neg": 697,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 10749,
+            "n_neg": 10337,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 10337,
+            "n_neg": 10749,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 4202,
+            "n_neg": 6547,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 6547,
+            "n_neg": 4202,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+": {
+        "children": [
+          "Sox6:Tmem132d",
+          "Sox6:March3"
+        ],
+        "child_status": {
+          "Sox6:Tmem132d": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2219,
+            "n_neg": 1983,
+            "n_genes": 200
+          },
+          "Sox6:March3": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1983,
+            "n_neg": 2219,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2-",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1788,
+            "n_neg": 4759,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 4759,
+            "n_neg": 1788,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan-",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2068,
+            "n_neg": 2691,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2691,
+            "n_neg": 2068,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+": {
+        "children": [
+          "Sox6:Vcan",
+          "Sox6:Kcnmb2"
+        ],
+        "child_status": {
+          "Sox6:Vcan": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1294,
+            "n_neg": 1397,
+            "n_genes": 200
+          },
+          "Sox6:Kcnmb2": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1397,
+            "n_neg": 1294,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 6383,
+            "n_neg": 3954,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 3954,
+            "n_neg": 6383,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2794,
+            "n_neg": 3589,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 3589,
+            "n_neg": 2794,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst-"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1173,
+            "n_neg": 1621,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1621,
+            "n_neg": 1173,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+": {
+        "children": [
+          "Calb1:Ccdc192",
+          "Calb1:Lpar1"
+        ],
+        "child_status": {
+          "Calb1:Ccdc192": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 368,
+            "n_neg": 805,
+            "n_genes": 200
+          },
+          "Calb1:Lpar1": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 805,
+            "n_neg": 368,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a-"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2752,
+            "n_neg": 837,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 837,
+            "n_neg": 2752,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+": {
+        "children": [
+          "Calb1:Kctd8",
+          "Calb1:Stac"
+        ],
+        "child_status": {
+          "Calb1:Kctd8": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1527,
+            "n_neg": 1225,
+            "n_genes": 200
+          },
+          "Calb1:Stac": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1225,
+            "n_neg": 1527,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3-",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1455,
+            "n_neg": 2499,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2499,
+            "n_neg": 1455,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+": {
+        "children": [
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+",
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521-"
+        ],
+        "child_status": {
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 2191,
+            "n_neg": 308,
+            "n_genes": 200
+          },
+          "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521-": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 308,
+            "n_neg": 2191,
+            "n_genes": 200
+          }
+        }
+      },
+      "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+": {
+        "children": [
+          "Calb1:Sulf1",
+          "Calb1:Sox6"
+        ],
+        "child_status": {
+          "Calb1:Sulf1": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 1380,
+            "n_neg": 811,
+            "n_genes": 200
+          },
+          "Calb1:Sox6": {
+            "status": "trained",
+            "reason": null,
+            "n_pos": 811,
+            "n_neg": 1380,
+            "n_genes": 200
+          }
+        }
+      }
+    }
+  },
+  "gate_repr": {
+    "node|rest_of_dendrogram": "raw",
+    "node|rest_of_dendrogram|Gad2+,Kctd16+": "raw",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high": "raw",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+": "raw",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Slc44a5+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Sox6+,Col25a1+|Cntnap5b+|Il1rapl2+|Vcan+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+": "raw",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Atp8b1+|Rmst+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Ntm+|Tmem132d+|Eph4a+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+": "sct",
+    "node|rest_of_dendrogram|Ddc-high,Slc6a3-high|Calb1+,Ndst3+|Lepr+|Cacna2d3+|Zfp521+": "sct"
+  }
+}
